@@ -56,11 +56,18 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <p>
   
-Step 2 – Create New Organizational Units (OUs)
+🔧 Setting the NIC to Static
 
-Two folders, called Organizational Units (OUs), were created to organize users into separate groups: one for employees and one for admins.
+  - Opened the DC-1 VM in Azure
+  - Selected the Network Interface: dc-1720_z1 / ipconfig1
+  - Changed the IP assignment from Dynamic to Static
+  - This ensures the Domain Controller always uses the same private IP for reliable DNS and domain services
 
-![tod](https://github.com/user-attachments/assets/452a428c-3237-418e-befa-64f2780e8675)
+<img width="1869" height="680" alt="image" src="https://github.com/user-attachments/assets/d4f11eb2-70f3-49f2-9b7e-947673d68065" />
+
+<img width="1899" height="771" alt="image" src="https://github.com/user-attachments/assets/b0971813-4760-4eb2-877f-5b314f2472e3" />
+
+
 
 </p>
 <br />
