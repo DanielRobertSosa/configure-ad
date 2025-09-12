@@ -47,11 +47,6 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="1878" height="932" alt="image" src="https://github.com/user-attachments/assets/75d72e73-6036-450a-afae-5f6832d09c44" />
 
-  - The private IP address is now set to 172.18.0.4
-  - This address will remain fixed and not change, ensuring stability for DNS and domain services
-<img width="729" height="485" alt="image" src="https://github.com/user-attachments/assets/0e555640-1fb2-42cd-8718-d4c1df4e1ea1" />
-
-
 
 </p>
 <p>
@@ -72,7 +67,10 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="1899" height="771" alt="image" src="https://github.com/user-attachments/assets/b0971813-4760-4eb2-877f-5b314f2472e3" />
 
+ - The private IP address is now set to 172.18.0.4
+ - This address will remain fixed and not change, ensuring stability for DNS and domain services
 
+<img width="729" height="485" alt="image" src="https://github.com/user-attachments/assets/0e555640-1fb2-42cd-8718-d4c1df4e1ea1" />
 
 </p>
 <br />
