@@ -35,13 +35,19 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <h2>📝 Deployment and Configuration Steps</h2>
 
-Step 1 – AD DS Role Installed 
+🖥️ Creating the Domain Controller and Client VMs 
 
-Active Directory Domain Services (AD DS) was installed using Server Manager to start setting up a domain.
+  -  Deployed both VMs inside the Active-Directory-Lab Resource Group
+  -  Created one VM to serve as the Domain Controller
+  -  Created a second VM to act as the Client machine that will join the domain
+  -  Placed both VMs in the same Virtual Network (VNet) for connectivity
+  -  Enabled Remote Desktop (RDP) access for management and configuration
 
-<p>
-  
-![image](https://github.com/user-attachments/assets/29600652-5f57-434b-bc35-a04b4ec2d596)
+<img width="1888" height="829" alt="image" src="https://github.com/user-attachments/assets/8be5634a-2438-4cc8-a1e8-26eb86737b1c" />
+
+<img width="1878" height="932" alt="image" src="https://github.com/user-attachments/assets/75d72e73-6036-450a-afae-5f6832d09c44" />
+
+
 </p>
 <p>
   
