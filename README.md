@@ -84,26 +84,13 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="1591" height="429" alt="image" src="https://github.com/user-attachments/assets/05c89008-533c-4d71-b6b2-90e4f313d3b9" />
 
+<img width="1899" height="793" alt="image" src="https://github.com/user-attachments/assets/331bf562-7f60-4435-8947-9e53a070073d" />
 
-<p>
-    
-Step 3 – View User in Directory
 
-The user account was successfully added to the Admin folder in Active Directory.
+🪟 Accessing Windows Firewall
+ - Right-click the Start menu and select Run
+ - Type wf.msc and press Enter
+ - This opens the Windows Defender Firewall with Advanced Security console
 
-![te](https://github.com/user-attachments/assets/ffb7fd45-a890-4901-9fc3-8cb7a0b400ac)
+<img width="452" height="242" alt="image" src="https://github.com/user-attachments/assets/8b12403e-4295-4fe8-bda6-de044c4765f7" />
 
-</p>
-<br />
-
-<p>
-
-Step 4 – Add User to Group 
-
-The user account was added to the “Domain Admins” group to give full administrative access across the domain.
-
-![Screenshot 2025-06-17 152009](https://github.com/user-attachments/assets/11751c50-18a4-42b7-b207-bfebd5dc2fb8)
-
-</p>
-<br />
-  
