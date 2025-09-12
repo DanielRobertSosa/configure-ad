@@ -94,3 +94,6 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="452" height="242" alt="image" src="https://github.com/user-attachments/assets/8b12403e-4295-4fe8-bda6-de044c4765f7" />
 
+<img width="1035" height="722" alt="image" src="https://github.com/user-attachments/assets/e8b15502-6898-4ccf-997a-6aec2541733c" />
+
+
