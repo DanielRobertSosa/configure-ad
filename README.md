@@ -26,6 +26,13 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 - Assigned the user to the Domain Users group and granted Domain Admins privileges
 
 
+## 📋 Pre-requisite: Creating a Resource Group
+
+  -  Logged into the Azure Portal
+  -  Went to Resource Groups and created one called Active-Directory-Lab
+  -  Picked a region that worked best for the lab setup
+  -  This resource group will hold everything for the project — VMs, networking, and storage
+
 <h2>📝 Deployment and Configuration Steps</h2>
 
 Step 1 – AD DS Role Installed 
