@@ -20,10 +20,11 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <h2>⚙️ High-Level Deployment and Configuration Steps</h2>
 
-- Turned on Active Directory in Server Manager
-- Made two folders: one for Admin and one for Employees
-- Created a user in the Admin folder
-- Added the user to Domain Users and Domain Admins
+- Enabled Active Directory Domain Services (AD DS) in Server Manager
+- Created two Organizational Units (OUs): one for Admins and one for Employees
+- Added a new user account inside the Admin OU
+- Assigned the user to the Domain Users group and granted Domain Admins privileges
+
 
 <h2>📝 Deployment and Configuration Steps</h2>
 
