@@ -74,6 +74,15 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 </p>
 <br />
+🔒 Disabling Windows Firewall (Testing Only)
+
+ - Logged into the DC-1 VM via Remote Desktop
+ - Located and noted the Public IP address of the VM in the Azure Portal (for reference in connectivity testing)
+ - Opened Windows Defender Firewall settings
+ - Disabled the firewall for Domain, Private, and Public networks
+ - This is only for testing connectivity in the lab environment
+
+<img width="1591" height="429" alt="image" src="https://github.com/user-attachments/assets/05c89008-533c-4d71-b6b2-90e4f313d3b9" />
 
 
 <p>
