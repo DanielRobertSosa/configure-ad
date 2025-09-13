@@ -113,3 +113,15 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
  - This ensures the new custom DNS configuration (pointing to DC-1’s private IP) is applied and active
 
 <img width="1868" height="573" alt="image" src="https://github.com/user-attachments/assets/4d84e8d3-2bcd-4ab0-8026-fa2c0e3f43c5" />
+
+
+📡 Testing Connectivity with PowerShell
+
+  - Logged into the Client-1 VM
+  - Opened PowerShell
+  - Ran the command: ping 172.18.0.4
+
+<img width="528" height="199" alt="image" src="https://github.com/user-attachments/assets/dad6d4e3-426a-45b2-af5b-c8291a55c1ad" />
+
+
+
