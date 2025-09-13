@@ -96,4 +96,20 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="1035" height="722" alt="image" src="https://github.com/user-attachments/assets/e8b15502-6898-4ccf-997a-6aec2541733c" />
 
+🌐 Setting Client-1 DNS to DC-1
 
+ - Opened the Client-1 VM in Azure
+ - Went to the Network Interface (NIC) settings
+ - Edited the DNS server settings from default (Azure) to custom
+ - Entered DC-1’s private IP address (172.18.0.4) as the DNS server
+ - Saved the configuration so Client-1 now resolves through the Domain Controller
+
+<img width="1868" height="633" alt="image" src="https://github.com/user-attachments/assets/df000ae7-502e-41b9-af66-f964132a25dd" />
+
+<img width="1886" height="622" alt="image" src="https://github.com/user-attachments/assets/71bafe07-c35f-42f8-812d-a5ebfec11aaf" />
+
+🔄 Restart Client-1 to Apply DNS
+ - After updating the DNS settings, restarted the Client-1 VM in Azure
+ - This ensures the new custom DNS configuration (pointing to DC-1’s private IP) is applied and active
+
+<img width="1868" height="573" alt="image" src="https://github.com/user-attachments/assets/4d84e8d3-2bcd-4ab0-8026-fa2c0e3f43c5" />
