@@ -123,5 +123,17 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <img width="528" height="199" alt="image" src="https://github.com/user-attachments/assets/dad6d4e3-426a-45b2-af5b-c8291a55c1ad" />
 
+🖥️ Verifying DNS with ipconfig /all
+
+  - Logged into the Client-1 VM
+  - Opened PowerShell (or Command Prompt)
+  - Ran the command: ipconfig /all
+  - Confirmed that the DNS server listed is DC-1’s private IP address (172.18.0.4), showing Client-1 is now using the Domain Controller for DNS resolution
+
+<img width="636" height="739" alt="image" src="https://github.com/user-attachments/assets/d3f50a8f-908a-44db-a659-7b38ea124744" />
+
+
+
+
 
 
