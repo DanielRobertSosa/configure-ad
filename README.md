@@ -20,10 +20,10 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 
 <h2>⚙️ High-Level Deployment and Configuration Steps</h2>
 
-- Enabled Active Directory Domain Services (AD DS) in Server Manager
-- Created two Organizational Units (OUs): one for Admins and one for Employees
-- Added a new user account inside the Admin OU
-- Assigned the user to the Domain Users group and granted Domain Admins privileges
+- Created an Azure Resource Group (Active-Directory-Lab) and deployed two virtual machines: DC-1 (Domain Controller) and Client-1 (workstation)
+- Configured networking and addressing by placing both VMs in the same Virtual Network and assigning DC-1 a static private IP to support stable DNS and domain services
+- Adjusted Client-1’s DNS configuration so it resolves queries through DC-1, preparing it to join the domain
+- Verified connectivity and name resolution between the two machines to confirm the environment was ready for Active Directory deployment
 
 
 ## 📋 Pre-requisite: Creating a Resource Group
