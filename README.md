@@ -133,6 +133,21 @@ This tutorial outlines the implementation of on-premises Active Directory (AD) w
 <img width="636" height="739" alt="image" src="https://github.com/user-attachments/assets/d3f50a8f-908a-44db-a659-7b38ea124744" />
 
 
+✅ Conclusion
+
+In this lab, I set up the foundation for an Active Directory environment by creating and configuring virtual machines in Azure, assigning proper networking, and validating connectivity between a domain controller and a client machine.
+
+This project not only strengthened my technical understanding of Active Directory basics, but also gave me practice explaining each step in a way that others can easily follow. Being able to clearly document and walk through processes is just as important as doing the technical work itself.
+
+🎓 Learning Outcomes
+
+Through this project, I learned to:
+
+  - Plan and deploy resources in Azure using best practices for organization and networking
+  - Configure static IPs and DNS settings to support reliable domain services
+  - Validate connectivity between systems before moving into more advanced Active Directory tasks
+  - Break down technical tasks into clear, teachable steps for beginners to follow
+  - Communicate both the how and the why, improving my ability to collaborate and share knowledge with teammates
 
 
 
